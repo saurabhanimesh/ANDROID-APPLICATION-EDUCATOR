@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/c1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaincolour"
+    tools:context=".SaveInformationActivity">
+
+    <ImageView
+        android:id="@+id/e1"
+        android:layout_width="266dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/usercode"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="phone"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/e1" />
+
+    <ImageView
+        android:id="@+id/b1"
+        android:layout_width="298dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/e1"
+        app:srcCompat="@drawable/border" />
+
+    <ImageView
+        android:id="@+id/phs1"
+        android:layout_width="14dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/e1"
+        app:srcCompat="@drawable/phon" />
+
+    <Button
+        android:id="@+id/login2"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="268dp"
+        android:background="@drawable/login"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/e1" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:fontFamily="casual"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/b1"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/b1"
+        app:layout_constraintTop_toBottomOf="@+id/b1" />
+
+    <Button
+        android:id="@+id/againcode"
+        android:layout_width="67dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/resend"
+        app:layout_constraintEnd_toEndOf="@+id/login2"
+        app:layout_constraintStart_toStartOf="@+id/login2"
+        app:layout_constraintTop_toBottomOf="@+id/login2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

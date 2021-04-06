@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaincolour"
+    tools:context=".LoginMain">
+
+    <ImageView
+        android:id="@+id/e1"
+        android:layout_width="266dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/usercode"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="phone"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/e1" />
+
+    <ImageView
+        android:id="@+id/b1"
+        android:layout_width="298dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/e1"
+        app:srcCompat="@drawable/border" />
+
+    <ImageView
+        android:id="@+id/phs1"
+        android:layout_width="14dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/e1"
+        app:srcCompat="@drawable/phon" />
+
+    <Button
+        android:id="@+id/login1"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/login"
+        app:layout_constraintBottom_toTopOf="@+id/acc1"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/e1" />
+
+    <ImageView
+        android:id="@+id/acc1"
+        android:layout_width="165dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sign1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/login1"
+        app:srcCompat="@drawable/donthave" />
+
+    <Button
+        android:id="@+id/sign1"
+        android:layout_width="56dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/signup"
+        app:layout_constraintEnd_toEndOf="@+id/login1"
+        app:layout_constraintTop_toBottomOf="@+id/login1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

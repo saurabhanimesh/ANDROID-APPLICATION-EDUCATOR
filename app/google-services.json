@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1050160170138",
+    "firebase_url": "https://educator-baef2.firebaseio.com",
+    "project_id": "educator-baef2",
+    "storage_bucket": "educator-baef2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050160170138:android:244e162237cdc498edcb23",
+        "android_client_info": {
+          "package_name": "com.abhishek.educatorproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050160170138-1itnvqfld70228hsodvkktsrl4md3eg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhishek.educatorproject",
+            "certificate_hash": "ea0433889cd53d2a4e5e38d1d35dcda655f6b58e"
+          }
+        },
+        {
+          "client_id": "1050160170138-c53jn6t0q9j9sg3fh5ppuru8uck3ug03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd4uMP6324b9B9uKrSg47fSyaKDH6Ud64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050160170138-c53jn6t0q9j9sg3fh5ppuru8uck3ug03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

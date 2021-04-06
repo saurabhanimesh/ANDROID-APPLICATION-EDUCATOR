@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home" >
+
+    <ImageView
+        android:id="@+id/sub"
+        android:layout_width="148dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/subjects" />
+
+    <Button
+        android:id="@+id/phybut"
+        android:layout_width="323dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="340dp"
+        android:background="@drawable/physbton"
+        app:layout_constraintBottom_toTopOf="@+id/testbut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/biobut"
+        android:layout_width="323dp"
+        android:layout_height="144dp"
+        android:background="@drawable/biobck"
+        app:layout_constraintEnd_toEndOf="@+id/chembut"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/chembut"
+        app:layout_constraintTop_toBottomOf="@+id/chembut" />
+
+    <Button
+        android:id="@+id/chembut"
+        android:layout_width="323dp"
+        android:layout_height="144dp"
+        android:background="@drawable/chmback"
+        app:layout_constraintEnd_toEndOf="@+id/phybut"
+        app:layout_constraintStart_toStartOf="@+id/phybut"
+        app:layout_constraintTop_toBottomOf="@+id/phybut" />
+
+    <Button
+        android:id="@+id/hombut"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/notbut"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/biobut"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <Button
+        android:id="@+id/notbut"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/notes"
+        app:layout_constraintBottom_toBottomOf="@+id/hombut"
+        app:layout_constraintEnd_toStartOf="@+id/testbut"
+        app:layout_constraintTop_toTopOf="@+id/hombut" />
+
+    <Button
+        android:id="@+id/testbut"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/test"
+        app:layout_constraintBottom_toBottomOf="@+id/notbut"
+        app:layout_constraintEnd_toStartOf="@+id/resbut"
+        app:layout_constraintTop_toTopOf="@+id/notbut" />
+
+    <Button
+        android:id="@+id/resbut"
+        android:layout_width="33dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/result"
+        app:layout_constraintBottom_toBottomOf="@+id/testbut"
+        app:layout_constraintEnd_toStartOf="@+id/lecbut"
+        app:layout_constraintTop_toTopOf="@+id/testbut" />
+
+    <Button
+        android:id="@+id/lecbut"
+        android:layout_width="39dp"
+        android:layout_height="28dp"
+        android:background="@drawable/lec"
+        app:layout_constraintBottom_toBottomOf="@+id/resbut"
+        app:layout_constraintEnd_toEndOf="@+id/biobut"
+        app:layout_constraintTop_toTopOf="@+id/resbut"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/homete"
+        android:layout_width="45dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/hombut"
+        app:layout_constraintStart_toStartOf="@+id/hombut"
+        app:layout_constraintTop_toBottomOf="@+id/hombut"
+        app:srcCompat="@drawable/homet" />
+
+    <ImageView
+        android:id="@+id/resultte"
+        android:layout_width="45dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/resbut"
+        app:layout_constraintStart_toStartOf="@+id/resbut"
+        app:layout_constraintTop_toBottomOf="@+id/resbut"
+        app:srcCompat="@drawable/resukttext" />
+
+    <ImageView
+        android:id="@+id/noteste"
+        android:layout_width="45dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/notbut"
+        app:layout_constraintStart_toStartOf="@+id/notbut"
+        app:layout_constraintTop_toBottomOf="@+id/notbut"
+        app:srcCompat="@drawable/notesttex" />
+
+    <ImageView
+        android:id="@+id/testte"
+        android:layout_width="45dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/testbut"
+        app:layout_constraintStart_toStartOf="@+id/testbut"
+        app:layout_constraintTop_toBottomOf="@+id/testbut"
+        app:srcCompat="@drawable/testtext" />
+
+    <ImageView
+        android:id="@+id/lecte"
+        android:layout_width="55dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/lecbut"
+        app:layout_constraintStart_toStartOf="@+id/lecbut"
+        app:layout_constraintTop_toBottomOf="@+id/lecbut"
+        app:srcCompat="@drawable/lecttext" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
